@@ -5,13 +5,14 @@ int main()
 {
     int n;
     
-    cout<<"Enter the size of array: "; cin>>n;
-    
+    cout<<"Enter the size of array: ";
+    cin>>n;
+    cout << "Size of array" << n;
     int a[n];
     
     cout<<"\nEnter the elements: ";
     for(int i=0; i<n; i++) cin>>a[i];
-      
+2
       
     for(int i=0; i<n; i++)
     {
